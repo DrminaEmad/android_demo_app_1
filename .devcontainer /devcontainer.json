@@ -1,0 +1,17 @@
+{
+  "name": "Android Development",
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "fwcd.kotlin",
+        "maqurran.ktlint-formatter"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup-android.sh"
+}
