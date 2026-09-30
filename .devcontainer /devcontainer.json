@@ -1,6 +1,6 @@
 {
   "name": "Android Development",
-  "image": "://microsoft.com",
+  "image": "docker.io/library/eclipse-temurin:17-jdk-jammy",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {}
   },
